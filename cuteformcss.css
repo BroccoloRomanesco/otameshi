@@ -1,0 +1,83 @@
+
+body {
+  padding: 50px;
+  font-size: 100%;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #222;
+  background-image: url("ohana.jpg");   
+}  	
+
+.marker {
+  background: linear-gradient(transparent 50%, #FFF 50%);
+ font-weight: bold; 
+ }
+
+h1 {
+  margin-bottom: 50px;
+    font-size: 300%;
+    color: #222;
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    -webkit-text-stroke: 0.5px #FFF;
+    text-stroke: 1px #FFF;
+
+    
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 86%;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+input[type="text"],
+textarea {
+-webkit-appearance: none;
+margin-bottom: 20px;
+padding: 10px;
+font-size: 86%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+}
+
+input[type="text"] {
+width: 200px;
+}
+textarea {
+width: 50%;
+max-width: 50%;
+height: 80px;
+}
+input[type="submit"] {
+appearance: none;
+font-family: 'Kosugi Maru', sans-serif;
+  color: rgb(235, 12, 12);
+  padding: 15px;
+  background: #FFF;
+  border: 2px dashed #FEA993;
+  border-radius: 10px;
+}
+input[type=submit]:hover,
+button:hover {
+  background-color: rgb(239, 254, 255);
+}
+
+.success_message {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #48b400;
+  border-radius: 10px;
+  border: 1px solid #4dc100;
+}
+
+article {
+  font-family: 'Kosugi Maru', sans-serif;
+  color: rgb(235, 12, 12);
+  padding: 5px;
+  background: #FFF;
+  border: 2px dashed #FEA993;
+  border-radius: 10px;
+}
+

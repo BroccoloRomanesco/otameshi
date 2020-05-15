@@ -1,0 +1,40 @@
+table.calendar{
+    width: 50%;
+}
+
+table.calendar th, table.calendar td{
+    padding: 10px;
+    background-color: #FFF;
+    border: 2px solid #DDDDDD;
+    margin: 0 30px 30px 0;
+}
+
+/* 先頭列は日曜日 */
+table.calendar th:first-of-type, table.calendar td:first-of-type{
+    background-color: #ffdcdc;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+/* 最後の列は土曜日 */
+table.calendar th:last-of-type, table.calendar td:last-of-type{
+    background-color: #d7e9ff;
+    color: #0000FF;
+    font-weight: bold;
+}
+
+
+table.calendar th {
+    font-weight: bold;
+    text-align: center;
+} 
+
+table.calendar td {
+    padding-bottom: 50px;
+  }
+
+/* 今日の日付 */
+table.calendar td.today{
+    background-color: #fbffa3;
+    font-weight: bold;
+}

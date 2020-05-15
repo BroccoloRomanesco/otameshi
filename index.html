@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>Web開発練習</title>
+	<link rel="stylesheet" href="indexcss.css">
+</head>
+<body>
+	<header>
+	<h1>Web開発練習</h1>
+	</header>	
+<br>
+<td>以下コンテンツです</td>
+<br>
+<ul>
+	<li>
+		<a href= "form.php" >投稿メモアプリ</a>
+		<p>4/30　複数行の投稿がきちんとできるようになりました</p>
+	</li>
+	<li>
+		<a href= "calendar.php" >カレンダーアプリ</a>
+		<p>5/1　スケジュールアプリの基礎として作成した、シンプルなカレンダーです。</p>
+		<p>日付をクリックするとダイアログが表示されて、スケジュールを書き込める</p>
+		<p>という仕組みを考えています。</p>
+	</li>
+	<li>
+		<a href= "sqlitest.php" >DBテスト</a>
+		<p></p>
+	</li>
+
+<br>
+</ul>
+</section>
+<section>
+	<script>
+		'use strict';
+	
+		const num = 5;
+		const winner = Math.floor(Math.random() * num); //0~4の整数を出す
+
+
+		for(let i = 0; i < num; i++){
+
+		
+			const div = document.createElement('div');
+			div.classList.add('box');
+		 
+			div.addEventListener('click', () => {
+				if(i === winner) {
+					div.textContent = "あたり";
+					div.classList.add('win');
+										
+				}else{
+					div.textContent = "はずれ";
+					div.classList.add('lose');
+				}
+			});
+
+			document.body.appendChild(div);	
+		}
+
+		
+
+</script>
+</section>
+</html>

@@ -1,0 +1,72 @@
+body {
+  padding: 50px;
+  font-size: 100%;
+  font-family:'游ゴシック','Yu Gothic',sans-serif;
+  color: #222;
+  background: #D7EEFF;
+}  	
+
+h1 {
+  margin-bottom: 30px;
+    font-size: 200%;
+    color: #222;
+    text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 86%;
+}
+
+input[type="text"],
+textarea {
+-webkit-appearance: none;
+margin-bottom: 20px;
+padding: 10px;
+font-size: 86%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+}
+
+input[type="text"] {
+width: 200px;
+}
+textarea {
+width: 50%;
+max-width: 50%;
+height: 80px;
+}
+input[type="submit"] {
+appearance: none;
+  -webkit-appearance: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 86%;
+  line-height: 1.0em;
+  cursor: pointer;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  background-color: #2392d8;
+}
+input[type=submit]:hover,
+button:hover {
+  background-color: #00ff7f;
+}
+
+.success_message {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #48b400;
+  border-radius: 10px;
+  border: 1px solid #4dc100;
+}
+
+article {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
